@@ -97,54 +97,263 @@
 // }
 
 
-let usuario = 'nathan';
-let senha = '1234';
-let admin = true;
+// let usuario = 'nathan';
+// let senha = '1234';
+// let admin = true;
 
-if(usuario === 'nathan' && senha === '1234' && admin === true) {
-    console.log('bem vindo administrador')
-} else if (usuario === 'nathan' && senha === '1234' && admin === false) {
-    console.log('bem vindo usuario')
+// if(usuario === 'nathan' && senha === '1234' && admin === true) {
+//     console.log('bem vindo administrador')
+// } else if (usuario === 'nathan' && senha === '1234' && admin === false) {
+//     console.log('bem vindo usuario')
+// } else {
+//     console.log('login inválido')
+// }
+
+// let saldo = 1000;
+// let saque = 300;
+
+// if(saque <= saldo) {
+//     console.log('saque realizado')
+//     console.log(saldo)
+// } else {
+//     console.log('saldo insuficiente')
+// }
+
+// let nota = 8;
+
+// if(nota === 10) {
+//     console.log('perfeito')
+// } else if (nota >=8) {
+//     console.log('otimo')
+// } else if(nota >=6) {
+//     console.log('aprovado')
+// } else {
+//     console.log('reprovado')
+// }
+
+// let idade = 20
+// let temIngresso = true;
+// let nomeNaLista = false;
+
+// if(temIngresso || nomeNaLista && idade >= 18) {
+//     console.log('pode entrar')
+// }
+
+// let numero = -5;
+
+// if(numero > 0) {
+//     console.log('positivo')
+// } else if (numero < 0) {
+//     console.log('negativo')
+// } else {
+//     console.log(zero)
+// }
+
+// let logado = true;
+// let premium = true;
+
+// if(logado) {
+
+//     if(premium) {
+//         console.log('plano premium')
+//     } else {
+//         console.log('plano comum')
+//     }
+//     } else {
+//         console.log('faça login')
+//     }
+
+
+
+
+let logado = true;
+let premium = true;
+
+if (logado) {
+
+    if (premium) {
+        console.log('acesso premium')
+    } else {
+        console.log('acesso comum')
+    }
+
 } else {
-    console.log('login inválido')
+    console.log('faça login')
 }
 
-let saldo = 1000;
-let saque = 300;
 
-if(saque <= saldo) {
-    console.log('saque realizado')
-    console.log(saldo)
+// let idade = 20;
+// let dinheiro = 20;
+
+// if (idade >= 18) {
+
+//     if(dinheiro >= 30) {
+//         console.log('entrada liberada')
+//     } else {
+//         console.log('dinheiro insuficiente')
+//     }
+// } else {
+//     console.log('entrada proibida')
+// }
+
+
+// let usuarioExiste = true;
+// let senhaCorreta = true;
+// let admin = false;
+
+// if(usuarioExiste) {
+
+//     if(senhaCorreta) {
+
+//         if(admin) {
+//             console.log('painel admin')
+//         } else {
+//             console.log('painel usuario')
+//         }
+//     } else {
+//         console.log('senha incorreta')
+//     }
+// } else {
+//     console.log('usuario não encontrado')
+// }
+
+let bateria = 10;
+let carregador = true;
+
+if(bateria < 20) {
+
+    if (carregador) {
+        console.log('carregando aparelho')
+    } else {
+        console.log('conecte o carregador')
+    }
 } else {
-    console.log('saldo insuficiente')
+    console.log('bateria ok')
 }
 
-let nota = 8;
+let cartaoValido = true;
+let senhaCorreta = true;
+let saldo = 500;
 
-if(nota === 10) {
-    console.log('perfeito')
-} else if (nota >=8) {
-    console.log('otimo')
-} else if(nota >=6) {
-    console.log('aprovado')
+if (cartaoValido) {
+
+    if (senhaCorreta) {
+
+        if (saldo >= 100) {
+            console.log('saldo permitido')
+        } else {
+            console.log('saldo insuficiente')
+        }
+    } else {
+        console.log('senha incorreta')
+    }
 } else {
-    console.log('reprovado')
+    console.log('cartão inválido')
 }
 
-let idade = 20
-let temIngresso = true;
-let nomeNaLista = false;
 
-if(temIngresso || nomeNaLista && idade >= 18) {
-    console.log('pode entrar')
+let assinatura = true;
+let perfilIfantil = false;
+let idade = 12
+
+if (assinatura) {
+
+    if (perfilIfantil) {
+
+        if (idade <= 12) {
+            console.log('contéudo infatil liberado')
+        } else {
+            console.log('contéudo bloqueado para idade')
+        }
+    } else {
+        console.log('acesso liberado')
+    }
+} else {
+    console.log('assine um plano')
 }
 
-let numero = -5;
+let matriculado = true;
+let nota = 7;
+let frequencia = 80;
 
-if(numero > 0) {
-    console.log('positivo')
-} else if (numero < 0) {
-    console.log('negativo')
+if (matriculado) {
+
+    if (nota >= 6) {
+
+        if (frequencia >= 70) {
+            console.log('aluno aprovado')
+        } else {
+            console.log('reprovado por falta')
+        }
+    } else {
+        console.log('reprovado por nota')
+    }
 } else {
-    console.log(zero)
+    console.log('aluno inválido')
+}
+
+let login = true;
+let emailVerificado = true;
+let twoFactor = true;
+
+if (login) {
+
+    if (emailVerificado) {
+
+        if (twoFactor) {
+            console.log('acesso liberado')
+        } else {
+            console.log('ative autenticação em dois fatores')
+        }
+    } else {
+        console.log('verifique seu email')
+    }
+} else {
+    console.log('faça login')
+}
+
+let produtoDisponivel = true;
+let dinheiro = 200;
+let vip = false;
+
+if (produtoDisponivel) {
+
+    if (dinheiro >= 150) {
+
+        if (vip) {
+            console.log('compra vip realizada')
+        } else {
+            console.log('compra comum realizada')
+        }
+    } else {
+        console.log('dinheiro insuficiente')
+    }
+} else {
+    console.log('produto indisponível')
+}
+
+let servidorOnline = true;
+let usuarioAutenticado = true;
+let permissaoAdmin = false
+let tokenValido = true
+
+if (servidorOnline) {
+
+    if (usuarioAutenticado) {
+
+        if (tokenValido) {
+
+            if (permissaoAdmin) {
+                console.log('painel administrativo liberado')
+            } else {
+                console.log('acesso comum liberado')
+            }
+        } else {
+            console.log('token inválido')
+        }
+    } else {
+        console.log('usuário não autenticado')
+    }
+} else {
+    console.log('servidor indisponivel')
 }
