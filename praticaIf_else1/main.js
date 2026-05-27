@@ -166,20 +166,20 @@
 
 
 
-let logado = true;
-let premium = true;
+// let logado = true;
+// let premium = true;
 
-if (logado) {
+// if (logado) {
 
-    if (premium) {
-        console.log('acesso premium')
-    } else {
-        console.log('acesso comum')
-    }
+//     if (premium) {
+//         console.log('acesso premium')
+//     } else {
+//         console.log('acesso comum')
+//     }
 
-} else {
-    console.log('faça login')
-}
+// } else {
+//     console.log('faça login')
+// }
 
 
 // let idade = 20;
@@ -217,143 +217,249 @@ if (logado) {
 //     console.log('usuario não encontrado')
 // }
 
-let bateria = 10;
-let carregador = true;
+// let bateria = 10;
+// let carregador = true;
 
-if(bateria < 20) {
+// if(bateria < 20) {
 
-    if (carregador) {
-        console.log('carregando aparelho')
-    } else {
-        console.log('conecte o carregador')
-    }
-} else {
-    console.log('bateria ok')
-}
+//     if (carregador) {
+//         console.log('carregando aparelho')
+//     } else {
+//         console.log('conecte o carregador')
+//     }
+// } else {
+//     console.log('bateria ok')
+// }
 
-let cartaoValido = true;
+// let cartaoValido = true;
+// let senhaCorreta = true;
+// let saldo = 500;
+
+// if (cartaoValido) {
+
+//     if (senhaCorreta) {
+
+//         if (saldo >= 100) {
+//             console.log('saldo permitido')
+//         } else {
+//             console.log('saldo insuficiente')
+//         }
+//     } else {
+//         console.log('senha incorreta')
+//     }
+// } else {
+//     console.log('cartão inválido')
+// }
+
+
+// let assinatura = true;
+// let perfilIfantil = false;
+// let idade = 12
+
+// if (assinatura) {
+
+//     if (perfilIfantil) {
+
+//         if (idade <= 12) {
+//             console.log('contéudo infatil liberado')
+//         } else {
+//             console.log('contéudo bloqueado para idade')
+//         }
+//     } else {
+//         console.log('acesso liberado')
+//     }
+// } else {
+//     console.log('assine um plano')
+// }
+
+// let matriculado = true;
+// let nota = 7;
+// let frequencia = 80;
+
+// if (matriculado) {
+
+//     if (nota >= 6) {
+
+//         if (frequencia >= 70) {
+//             console.log('aluno aprovado')
+//         } else {
+//             console.log('reprovado por falta')
+//         }
+//     } else {
+//         console.log('reprovado por nota')
+//     }
+// } else {
+//     console.log('aluno inválido')
+// }
+
+// let login = true;
+// let emailVerificado = true;
+// let twoFactor = true;
+
+// if (login) {
+
+//     if (emailVerificado) {
+
+//         if (twoFactor) {
+//             console.log('acesso liberado')
+//         } else {
+//             console.log('ative autenticação em dois fatores')
+//         }
+//     } else {
+//         console.log('verifique seu email')
+//     }
+// } else {
+//     console.log('faça login')
+// }
+
+// let produtoDisponivel = true;
+// let dinheiro = 200;
+// let vip = false;
+
+// if (produtoDisponivel) {
+
+//     if (dinheiro >= 150) {
+
+//         if (vip) {
+//             console.log('compra vip realizada')
+//         } else {
+//             console.log('compra comum realizada')
+//         }
+//     } else {
+//         console.log('dinheiro insuficiente')
+//     }
+// } else {
+//     console.log('produto indisponível')
+// }
+
+// let servidorOnline = true;
+// let usuarioAutenticado = true;
+// let permissaoAdmin = false
+// let tokenValido = true
+
+// if (servidorOnline) {
+
+//     if (usuarioAutenticado) {
+
+//         if (tokenValido) {
+
+//             if (permissaoAdmin) {
+//                 console.log('painel administrativo liberado')
+//             } else {
+//                 console.log('acesso comum liberado')
+//             }
+//         } else {
+//             console.log('token inválido')
+//         }
+//     } else {
+//         console.log('usuário não autenticado')
+//     }
+// } else {
+//     console.log('servidor indisponivel')
+// }
+
+let contaExiste = true;
 let senhaCorreta = true;
-let saldo = 500;
+let biometria = false;
 
-if (cartaoValido) {
+if (contaExiste) {
 
     if (senhaCorreta) {
 
-        if (saldo >= 100) {
-            console.log('saldo permitido')
-        } else {
-            console.log('saldo insuficiente')
-        }
-    } else {
-        console.log('senha incorreta')
-    }
-} else {
-    console.log('cartão inválido')
-}
-
-
-let assinatura = true;
-let perfilIfantil = false;
-let idade = 12
-
-if (assinatura) {
-
-    if (perfilIfantil) {
-
-        if (idade <= 12) {
-            console.log('contéudo infatil liberado')
-        } else {
-            console.log('contéudo bloqueado para idade')
-        }
-    } else {
-        console.log('acesso liberado')
-    }
-} else {
-    console.log('assine um plano')
-}
-
-let matriculado = true;
-let nota = 7;
-let frequencia = 80;
-
-if (matriculado) {
-
-    if (nota >= 6) {
-
-        if (frequencia >= 70) {
-            console.log('aluno aprovado')
-        } else {
-            console.log('reprovado por falta')
-        }
-    } else {
-        console.log('reprovado por nota')
-    }
-} else {
-    console.log('aluno inválido')
-}
-
-let login = true;
-let emailVerificado = true;
-let twoFactor = true;
-
-if (login) {
-
-    if (emailVerificado) {
-
-        if (twoFactor) {
+        if (biometria) {
             console.log('acesso liberado')
         } else {
-            console.log('ative autenticação em dois fatores')
+            console.log('confirme biometria')
         }
     } else {
-        console.log('verifique seu email')
+        console.log('senha incorreta') 
     }
 } else {
-    console.log('faça login')
+    console.log('conta não encontrada')
 }
 
+
 let produtoDisponivel = true;
-let dinheiro = 200;
-let vip = false;
+let carrinho = true;
+let pagamentoAprovado = false;
 
 if (produtoDisponivel) {
 
-    if (dinheiro >= 150) {
+    if (carrinho) {
 
-        if (vip) {
-            console.log('compra vip realizada')
+        if (pagamentoAprovado) {
+            console.log('compra finalizada')
         } else {
-            console.log('compra comum realizada')
+            console.log('pagamento recusado')
         }
     } else {
-        console.log('dinheiro insuficiente')
+        console.log('carrinho vazio')
     }
 } else {
     console.log('produto indisponível')
 }
 
-let servidorOnline = true;
-let usuarioAutenticado = true;
-let permissaoAdmin = false
-let tokenValido = true
+let ingresso = true;
+let idade = 15;
+let acompanhado = false;
 
-if (servidorOnline) {
+if (ingresso) {
 
-    if (usuarioAutenticado) {
-
-        if (tokenValido) {
-
-            if (permissaoAdmin) {
-                console.log('painel administrativo liberado')
-            } else {
-                console.log('acesso comum liberado')
-            }
-        } else {
-            console.log('token inválido')
-        }
+    if (idade >= 16) {
+        console.log('entrada liberada')
+    } else if (acompanhado) {
+        console.log('entrada liberada com responsável')
     } else {
-        console.log('usuário não autenticado')
+        console.log('entrada proibida para menores desacompanhados')
     }
 } else {
-    console.log('servidor indisponivel')
+    console.log('compre um ingresso')
+}
+
+let login = true;
+let token = true;
+let admin = true;
+let manutencao = false;
+
+if (login) {
+
+    if (token) {
+
+        if (manutencao === false) {
+
+            if (admin) {
+                console.log('painel admin liberado')
+            } else {
+                console.log('acesso liberado')
+            }
+        } else {
+            console.log('sistema em manutenção')
+        }
+    } else {
+        console.log('token inválido')
+    }
+} else {
+    console.log('faça login')
+}
+
+
+let assinatura = true;
+let filmeDisponivel = true;
+let idade1 = 14;
+let classificacao = 16;
+
+if (assinatura) {
+
+    if (filmeDisponivel) {
+
+        if (idade1 >= classificacao) {
+            console.log('filme liberado')
+        } else {
+            console.log('contéudo bloqueado por idade')
+        }
+    } else {
+        console.log('filme indisponível')
+    }
+} else {
+    console.log('assine um plano')
 }
